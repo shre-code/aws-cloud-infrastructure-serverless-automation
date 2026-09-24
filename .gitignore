@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+lambda.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# AWS
+.aws/
+.env
+.env.*
+
+# Build
+build/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+*.pem
+*.key
+secrets/
